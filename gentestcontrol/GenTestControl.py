@@ -19,7 +19,7 @@ import dbus.mainloop
 import pyudev
 from dbus.mainloop.glib import DBusGMainLoop
 from threading import Thread, RLock, Lock, Timer
-import RPi.GPIO as GPIO
+# import RPi.GPIO as GPIO
 import time
 from queue import Queue
 import syslog
