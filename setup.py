@@ -22,7 +22,7 @@ setup(
     long_description  = open("README.md").read(),
     data_files        = [
         ('/usr/sbin',                       ['gentestcontrol/gentestcontrol' ]),
-        ("share/GenTestControl",            [ "extra/license", ] ),
+        ("share/GenTestControl",            [ "extra/COPYING", ] ),
     ],
     cmdclass = { 'install': post_install },
 )
