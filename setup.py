@@ -17,12 +17,12 @@ setup(
     url               = "https://www.robosity.com",
     version           = VERSION,
     packages          = [ "gentestcontrol" ],
-    scripts           = [ "gentestcontrol/GenTestControl" ],
     license           = "Copyright 2021, Gary Oliver",
     description       = "Generator Test main control",
     long_description  = open("README.md").read(),
     data_files        = [
-        ("share/GenTestDisplay",             [ "extra/license", ] ),
+        ('/usr/sbin',                       ['gentestcontrol/gentestcontrol' ]),
+        ("share/GenTestDisplay",            [ "extra/license", ] ),
     ],
     cmdclass = { 'install': post_install },
 )
