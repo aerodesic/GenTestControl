@@ -17,7 +17,7 @@ setup(
     url               = "https://www.robosity.com",
     version           = VERSION,
     packages          = [ "gentestcontrol" ],
-    scripts           = [ "scripts/GenTestControl" ],
+    scripts           = [ "gentestcontrol/GenTestControl" ],
     license           = "Copyright 2021, Gary Oliver",
     description       = "Generator Test main control",
     long_description  = open("README.md").read(),
